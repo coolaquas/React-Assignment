@@ -3,7 +3,7 @@ import axios from "axios";
 export const newsprovider = async (op) => {
   let data = [];
   const apiKey = "46936c29d52343a9abe269266381b6ed";
-  const baseUrl = "http://newsapi.org/v2/";
+  const baseUrl = "https://newsapi.org/v2/";
   let variable;
   // console.log(typeof op);
   switch (parseInt(op)) {
