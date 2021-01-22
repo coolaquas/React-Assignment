@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-family: Impact, fantasy;
+  background: linear-gradient(rgb(236, 254, 255), rgb(255, 255, 255));
+  align-items: center;
+}
+.header > h1 {
+  margin: 5px;
+}
+.header a {
+  font-size: x-large;
+}
+
+@media (max-width: 768px) {
+  .header a {
+    font-size: large;
+  }
+}
